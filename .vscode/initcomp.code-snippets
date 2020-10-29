@@ -1,0 +1,19 @@
+{
+
+	"Init componente": {
+		"scope": "javascript",
+		"prefix": "initcomp",
+		"body": [
+			"import React from  'react'",
+			"import { StyleSheet, Text } from 'react-native'",
+			"",
+			"export default (props) => {",
+			"",
+			"  return (",
+			"    <Text>A</Text>",
+			"  )",
+			"}",			
+		],
+		"description": "inicializacao de componente"
+	}
+}
