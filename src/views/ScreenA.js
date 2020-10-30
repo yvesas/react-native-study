@@ -6,7 +6,7 @@ import CentralText from '../components/CentralText'
 export default (props) => {
 
   return (
-    <CentralText bkgColor={'#e53935'}>
+    <CentralText bkgColor={'tomato'}>
       Aqui é a Tela A
     </CentralText>
   )

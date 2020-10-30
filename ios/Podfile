@@ -8,6 +8,8 @@ target 'exec_native_2' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'exec_native_2Tests' do
     inherit! :complete
     # Pods for testing
